@@ -1,0 +1,11 @@
+{
+  "name": "dev-setup",
+  "version": "1.0.0",
+  "description": "CLI tool that quickly scaffolds projects with predefined folder structures. Ideal for developers looking to jumpstart new applications with best practices and essential tools pre-configured.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Evgeni Gomziakov",
+  "license": "ISC"
+}
