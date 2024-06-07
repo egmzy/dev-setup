@@ -2,7 +2,7 @@
 
 A Node.js command-line interface (CLI) tool that automates the creation of predefined project structures for web development.
 
-![image](https://github.com/egmzy/dev-setup/assets/60209991/a7537bb8-55ef-43f3-ac9c-0c069cc44aae)
+![image](https://github.com/egmzy/eg-dev-setup/assets/60209991/612a5b8d-2938-4308-816f-a1bb9e906b5f)
 
 ## Features
 
