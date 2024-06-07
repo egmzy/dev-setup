@@ -1,4 +1,4 @@
-# dev-setup
+# eg-dev-setup
 
 A Node.js command-line interface (CLI) tool that automates the creation of predefined project structures for web development.
 
@@ -12,20 +12,26 @@ A Node.js command-line interface (CLI) tool that automates the creation of prede
 
 ## Installation
 
-Install `dev-setup` globally using npm:
+To create a new project, simply run:
 
 ```bash
-npm install -g dev-setup
+npx eg-dev-setup
 ```
 
-This allows you to use `dev-setup` from anywhere on your system.
+or install `eg-dev-setup` globally using npm:
+
+```bash
+npm install -g eg-dev-setup
+```
+
+This allows you to use `eg-dev-setup` from anywhere on your system.
 
 ## Usage
 
 To create a new project, simply run:
 
 ```bash
-dev-setup
+eg-dev-setup
 ```
 
 You will be prompted to choose the type of project you want to set up:
@@ -33,17 +39,17 @@ You will be prompted to choose the type of project you want to set up:
 - React Project
 - NestJS Project
 
-Select your desired project type, and `dev-setup` will automatically create the project structure in your current directory.
+Select your desired project type, and `eg-dev-setup` will automatically create the project structure in your current directory.
 
 ## Project Structure
 
 The CLI tool is structured as follows:
 
 ```
-dev-setup/
+eg-dev-setup/
 │
 ├── bin/                  # Entry point scripts
-│   └── dev-setup.js      # Main executable
+│   └── eg-dev-setup.js      # Main executable
 │
 ├── lib/                  # Core functionality
 │   ├── cli.js            # Setup CLI commands and options

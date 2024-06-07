@@ -1,10 +1,10 @@
 {
-  "name": "dev-setup",
+  "name": "eg-dev-setup",
   "version": "1.0.0",
   "description": "CLI tool that quickly scaffolds projects with predefined folder structures. Ideal for developers looking to jumpstart new applications with best practices and essential tools pre-configured.",
   "type": "module",
   "bin": {
-    "dev-setup": "bin/dev-setup.js"
+    "eg-dev-setup": "bin/eg-dev-setup.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
