@@ -1,7 +1,7 @@
 {
   "name": "eg-dev-setup",
-  "version": "1.0.0",
-  "description": "CLI tool that quickly scaffolds projects with predefined folder structures. Ideal for developers looking to jumpstart new applications with best practices and essential tools pre-configured.",
+  "version": "1.0.2",
+  "description": "CLI tool that quickly scaffolds projects with predefined folder structures.",
   "type": "module",
   "bin": {
     "eg-dev-setup": "bin/eg-dev-setup.js"
