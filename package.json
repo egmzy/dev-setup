@@ -2,10 +2,20 @@
   "name": "dev-setup",
   "version": "1.0.0",
   "description": "CLI tool that quickly scaffolds projects with predefined folder structures. Ideal for developers looking to jumpstart new applications with best practices and essential tools pre-configured.",
-  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "dev-setup": "bin/dev-setup.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Evgeni Gomziakov",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "inquirer": "^9.2.23",
+    "ora": "^8.0.1",
+    "winston": "^3.13.0"
+  }
 }

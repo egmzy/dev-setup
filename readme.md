@@ -4,9 +4,8 @@
 
 ## Features
 
-- **React with TypeScript**: Set up a new React project configured with TypeScript.
-- **NestJS**: Initialize a new NestJS backend application with optimal defaults.
-- **Express**: Create a basic structure for an Express.js backend.
+- **React**: Set up a new React project configured with TypeScript.
+- **Nest**: Initialize a new NestJS backend application with optimal defaults.
 
 `dev-setup` ensures that you can start developing immediately without the repetitive setup tasks, integrating best practices and essential tools out-of-the-box.
 
@@ -25,18 +24,13 @@ To create a new project, simply run one of the following commands in your termin
 - For a React with TypeScript project:
 
   ```bash
-  dev-setup react-ts
+  dev-setup react
   ```
 
 - For a NestJS project:
 
   ```bash
   dev-setup nest
-  ```
-
-- For an Express project:
-  ```bash
-  dev-setup express
   ```
 
 This will generate a new folder in your current directory containing all the necessary files and folders based on the template chosen.
