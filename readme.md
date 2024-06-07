@@ -1,60 +1,65 @@
 # dev-setup
 
-`dev-setup` is a Node.js command-line interface (CLI) that automates the creation of predefined folder structures for both frontend and backend applications. Inspired by the simplicity of `create-react-app`, this tool provides a fast-track setup for developers, allowing them to start with their favorite tools and configurations in place.
+A Node.js command-line interface (CLI) tool that automates the creation of predefined project structures for web development.
 
 ## Features
 
-- **React**: Set up a new React project configured with TypeScript.
-- **Nest**: Initialize a new NestJS backend application with optimal defaults.
-
-`dev-setup` ensures that you can start developing immediately without the repetitive setup tasks, integrating best practices and essential tools out-of-the-box.
+- **Quick Setup**: Initialize React and NestJS projects with predefined templates.
+- **Modular Design**: Core functionalities like CLI handling, file operations, and logging are separated into different modules for better maintainability.
+- **Custom Logger**: Utilizes a custom logger setup for clear and structured logging.
 
 ## Installation
 
-You can install `dev-setup` globally on your system using the npm package manager:
+Install `dev-setup` globally using npm:
 
 ```bash
 npm install -g dev-setup
 ```
 
+This allows you to use `dev-setup` from anywhere on your system.
+
 ## Usage
 
-To create a new project, simply run one of the following commands in your terminal:
+To create a new project, simply run:
 
-- For a React with TypeScript project:
+```bash
+dev-setup
+```
 
-  ```bash
-  dev-setup react
-  ```
+You will be prompted to choose the type of project you want to set up:
 
-- For a NestJS project:
+- React Project
+- NestJS Project
 
-  ```bash
-  dev-setup nest
-  ```
+Select your desired project type, and `dev-setup` will automatically create the project structure in your current directory.
 
-This will generate a new folder in your current directory containing all the necessary files and folders based on the template chosen.
+## Project Structure
+
+The CLI tool is structured as follows:
+
+```
+dev-setup/
+│
+├── bin/                  # Entry point scripts
+│   └── dev-setup.js      # Main executable
+│
+├── lib/                  # Core functionality
+│   ├── cli.js            # Setup CLI commands and options
+│   ├── copier.js         # Handles copying of templates
+│   └── logger.js         # Logger configuration
+│
+├── templates/            # Project templates directory
+│   ├── react/            # React project template
+│   └── nest/             # NestJS project template
+│
+├── package.json          # Node package file
+└── README.md             # Project README
+```
 
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-To contribute:
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+Contributions are welcome! If you have suggestions or improvements, please fork the repository and submit a pull request.
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
-
-## Acknowledgements
-
-- Special thanks to everyone who contributes to and supports open source projects.
-
----
-
-This README can serve as a good starting point for your project on GitHub. Adjust the text as needed to fit your specific needs or to elaborate on certain points!
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
